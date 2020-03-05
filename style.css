@@ -496,8 +496,8 @@ ul {
         margin-bottom: 1em;
     }
     .top {
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         margin-left: 1em;
         margin-right: 1em;
     }
@@ -506,6 +506,10 @@ ul {
         padding-bottom: 32px;
         margin-left: 1em;
         margin-right: 1em;
+    }
+    .image-container {
+        margin-left: 2em;
+        margin-right: 2em;
     }
     .icons {
         padding: 0px;

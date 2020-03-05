@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap" rel="stylesheet">
+
+    <!-- This loads Foundation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet"
+        type="text/css">
+
+    <!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- This loads Foundation JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+    <!-- Finally, this starts foundation for everything on the page -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).foundation();
+        });
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parka - About</title>
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <div class="container">
+                <h1 class="logo"><a class="logo-home" href="index.html">Parka</a></h1>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li class="home"><a href="index.html">Home</a></li>
+                        <li class="about"><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <svg class="hamburger" viewBox="0 0 100 100">
+                        <line class="line-one" x1="10" y1="42" x2="60" y2="42" fill="none" stroke="#000"
+                            stroke-miterlimit="10" stroke-width="3" />
+                        <line class="line-three" x1="10" y1="72" x2="60" y2="72" fill="none" stroke="#000"
+                            stroke-miterlimit="10" stroke-width="3" />
+                    </svg>
+                </label>
+        </header>
+    </div>
+
+    <div class="spacer">
+        &nbsp;
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x top" id="home">
+            <div class="large-6 medium-6 small-12 cell text">
+                <h1 class="grinder-h">What does Parka do?</h1>
+                <br>
+                <p class="grinder-p">Parka tracks parking real-time by utilizing OpenCV, MongoDB, Swift, and Python. It
+                    analyzes video real-time and updates the databases to reflect the amount of cars in the parking
+                    garage.
+                </p>
+                <br>
+            </div>
+            <div class="large-6 medium-6 small-12 cell accordion-top">
+                <ul class="accordion" data-accordion>
+                    <li class="accordion-item is-active" data-accordion-item>
+                        <!-- Accordion tab title -->
+                        <a href="#" class="accordion-title">Who are we?</a>
+
+                        <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                        <div class="accordion-content" data-tab-content>
+                            <p>We're college students who know the struggles that parking presents on a growing campus.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="accordion-item" data-accordion-item>
+                        <!-- Accordion tab title -->
+                        <a href="#" class="accordion-title">Why Parka?</a>
+
+                        <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                        <div class="accordion-content" data-tab-content>
+                            <p>Parka is a solution to the parking epidemic found across America at every University.</p>
+                        </div>
+                    </li>
+                    <li class="accordion-item" data-accordion-item>
+                        <!-- Accordion tab title -->
+                        <a href="#" class="accordion-title">The Implementation</a>
+
+                        <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                        <div class="accordion-content" data-tab-content>
+                            <p>Implementation of Parka on a campus is easy, and cost-efficient. The software takes
+                                minimum effort to up-keep and run.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

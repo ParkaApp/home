@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap" rel="stylesheet">
+
+    <!-- This loads Foundation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet"
+        type="text/css">
+
+    <!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- This loads Foundation JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+    <!-- Finally, this starts foundation for everything on the page -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).foundation();
+        });
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parka - Home</title>
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <div class="container">
+                <h1 class="logo"><a class="logo-home" href="index.html">Parka</a></h1>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li class="home"><a href="index.html">Home</a></li>
+                        <li class="about"><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <svg class="hamburger" viewBox="0 0 100 100">
+                        <line class="line-one" x1="10" y1="42" x2="60" y2="42" fill="none" stroke="#000"
+                            stroke-miterlimit="10" stroke-width="3" />
+                        <line class="line-three" x1="10" y1="72" x2="60" y2="72" fill="none" stroke="#000"
+                            stroke-miterlimit="10" stroke-width="3" />
+                    </svg>
+                </label>
+        </header>
+    </div>
+
+    <div class="spacer">
+        &nbsp;
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x top" id="home">
+            <div class="large-6 medium-10 small-12 cell text">
+                <h1 class="grinder-h">Welcome to effortless parking.</h1>
+                <br>
+                <p class="grinder-p">Using Parka saves students time and allows them to focus on what really matters:
+                    their education.
+                </p>
+                <br>
+                <a style="color: white" href="about.html">
+                    <div class="button-primary">
+                        LEARN MORE
+                    </div>
+                </a>
+            </div>
+            <div class="large-6 medium-6 small-12 cell iphone-container">
+                <img class="iphone" src="iphone.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="logo-container">
+        <div class="grid-x logos">
+            <ul>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/kickstarter.svg" alt="">
+                </li>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/instacart.svg" alt="">
+                </li>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/bookingcom.svg" alt="">
+                </li>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/lyft.svg" alt="">
+                </li>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/shopify.svg" alt="">
+                </li>
+                <li>
+                    <img class="customer" src="https://stripe.com/img/v3/home/customer-logos/opentable.svg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="large-6 medium-12 small-12 cell work-img">
+                <img class="work-img" src="work.jpg" alt="">
+            </div>
+            <div class="large-6 medium-12 small-12 cell img-text-container">
+                <div class="large-6 medium-12 small-12 cell img-text">
+                    <p class="grinder-p">We designed, developed, and tested our MVP all at HackMT, a hackathon that
+                        gives each team 36 hours to develop an application.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="large-6 medium-12 small-12 cell img-text-container">
+                <div class="large-6 medium-12 small-12 cell img-text2">
+                    <p class="grinder-p">We placed third at the hackathon and received compliments regarding our
+                        technology stack, design, and concept!</p>
+                </div>
+            </div>
+            <div class="large-6 medium-12 small-12 cell work-img">
+                <img class="work-img-visible" src="work2.jpg" alt="">
+            </div>
+            <div class="large-6 medium-12 small-12 cell img-text-container">
+                <div class="large-6 medium-12 small-12 cell img-text3">
+                    <p class="grinder-p">We placed third at the hackathon and received compliments regarding our
+                        technology stack, design, and concept!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -496,8 +496,14 @@ ul {
         margin-bottom: 1em;
     }
     .top {
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .top2 {
+        padding-top: 32px;
+        padding-bottom: 32px;
         margin-left: 1em;
         margin-right: 1em;
     }
